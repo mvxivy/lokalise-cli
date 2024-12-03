@@ -1,0 +1,34 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@lokalise/node-api':
+        specifier: ^12.8.0
+        version: 12.8.0
+    devDependencies:
+      prettier:
+        specifier: ^3.4.1
+        version: 3.4.1
+
+packages:
+
+  '@lokalise/node-api@12.8.0':
+    resolution: {integrity: sha512-BkOJbjb841+zgzHq0VVnyIBeteSqu76dkzgFb2ImrdCXzNSMKHP1spyu7GrncvoRvaFza8zajnPR725aAcpmSw==}
+    engines: {node: '>=18'}
+
+  prettier@3.4.1:
+    resolution: {integrity: sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+snapshots:
+
+  '@lokalise/node-api@12.8.0': {}
+
+  prettier@3.4.1: {}

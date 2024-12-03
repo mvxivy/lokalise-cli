@@ -1,0 +1,19 @@
+{
+  "name": "lokalise-cli",
+  "version": "0.2.0",
+  "description": "Update translations from Lokalise",
+  "main": "fetch-locales.mjs",
+  "bin": {
+    "ltu": "./ltu.mjs"
+  },
+  "scripts": {
+    "test": "node script.mjs"
+  },
+  "private": true,
+  "dependencies": {
+    "@lokalise/node-api": "^12.8.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.1"
+  }
+}
