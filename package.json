@@ -1,8 +1,17 @@
 {
-  "name": "@mvxiv/lokalise-cli",
+  "name": "@mvxivy/lokalise-cli",
   "version": "0.2.1",
   "description": "Update translations from Lokalise",
   "main": "fetch-locales.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvxivy/lokalise-cli.git"
+  },
+  "author": "Maksim Ivanov <vonavimax@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "ltu": "./ltu.mjs"
   },

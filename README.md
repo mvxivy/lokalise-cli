@@ -1,11 +1,11 @@
-# Lokalise-translations-updater
+# Lokalise CLI
 
 This script is used to download translations from Lokalise to your project and update. 
 
 ## Installation
 
 ```bash
-npm install -D lokalise-translations-updater
+npm install -D @mvxivy/lokalise-cli
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ ltu
 
 #### Node.js
 ```javascript
-import { fetchLocales } from "@mvxiv/lokalise-cli";
+import { fetchLocales } from "@mvxivy/lokalise-cli";
 
 const config = {
   apiKey: '<your api key>',
