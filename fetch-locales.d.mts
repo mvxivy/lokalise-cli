@@ -4,6 +4,10 @@ declare interface Config {
   outputDir: string;
   projectId: string;
   branch?: string;
+  processesOptions?: {
+    files?: any;
+    keys?: any;
+  }
 }
 
 declare interface ProcessConfig {
