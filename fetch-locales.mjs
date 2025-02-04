@@ -24,5 +24,9 @@ export const fetchLocales = async (config) => {
 
   const process = selectProcess(processMap, config.process);
 
-  await process(lokalise, processConfig);
+  try{
+    await process(lokalise, processConfig);
+  } catch(error) {
+    console.error(error);
+  }
 };
