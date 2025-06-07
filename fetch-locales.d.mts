@@ -10,6 +10,12 @@ declare interface Config {
   }
 }
 
+declare interface MergeBranchConfig {
+  projectId: string;
+  branchName: string;
+  deleteBranch: boolean;
+}
+
 declare interface ProcessConfig {
   project_id: string;
   branch?: string;

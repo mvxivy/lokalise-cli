@@ -19,7 +19,8 @@
     "test": "node ltu.mjs"
   },
   "dependencies": {
-    "@lokalise/node-api": "^12.8.0"
+    "@lokalise/node-api": "^12.8.0",
+    "consola": "^3.4.2"
   },
   "devDependencies": {
     "prettier": "^3.4.1"

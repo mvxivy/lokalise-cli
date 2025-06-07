@@ -11,6 +11,9 @@ importers:
       '@lokalise/node-api':
         specifier: ^12.8.0
         version: 12.8.0
+      consola:
+        specifier: ^3.4.2
+        version: 3.4.2
     devDependencies:
       prettier:
         specifier: ^3.4.1
@@ -22,6 +25,10 @@ packages:
     resolution: {integrity: sha512-BkOJbjb841+zgzHq0VVnyIBeteSqu76dkzgFb2ImrdCXzNSMKHP1spyu7GrncvoRvaFza8zajnPR725aAcpmSw==}
     engines: {node: '>=18'}
 
+  consola@3.4.2:
+    resolution: {integrity: sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==}
+    engines: {node: ^14.18.0 || >=16.10.0}
+
   prettier@3.4.1:
     resolution: {integrity: sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg==}
     engines: {node: '>=14'}
@@ -30,5 +37,7 @@ packages:
 snapshots:
 
   '@lokalise/node-api@12.8.0': {}
+
+  consola@3.4.2: {}
 
   prettier@3.4.1: {}
