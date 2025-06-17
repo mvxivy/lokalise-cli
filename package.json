@@ -1,6 +1,6 @@
 {
   "name": "@mvxivy/lokalise-cli",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Update translations from Lokalise",
   "main": "ltu.mjs",
   "repository": {
