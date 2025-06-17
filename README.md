@@ -41,4 +41,4 @@ If you use cli method, you can create a `.lokalise.json` file in the root of you
 Possible options for [`processesOptions.keys`](https://developers.lokalise.com/reference/list-all-keys) and [`processesOptions.files`](https://developers.lokalise.com/reference/download-files) can be found in the Lokalise API documentation.
 
 ## Feature plans
-- [ ] Node.js use case for to enable expansion and customization of functionality
+- [ ] Node.js use case to enable expansion and customization of functionality
