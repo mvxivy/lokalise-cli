@@ -2,7 +2,7 @@
   "name": "@mvxivy/lokalise-cli",
   "version": "0.4.1",
   "description": "Update translations from Lokalise",
-  "main": "fetch-locales.mjs",
+  "main": "ltu.mjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mvxivy/lokalise-cli.git"

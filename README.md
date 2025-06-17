@@ -10,29 +10,21 @@ npm install -D @mvxivy/lokalise-cli
 
 ## Usage
 
-#### CLI 
+### CLI 
 ```bash
 ltu
 ```
 
-#### Node.js
-```javascript
-import { fetchLocales } from "@mvxivy/lokalise-cli";
-
-const config = {
-  apiKey: '<your api key>',
-  projectId: '<your project id>',
-  outputDir: '<output directory>',
-  // ... other options
-}
-
-fetchLocales(config);
-```
+### Features
+* Fetch and update locales from the `master` branch of your lokalise project 
+  * Fetch by files (recommended)
+  * Fetch by JSON
+* Select another branch, merge it into `master` branch and then fetch and update
+  * You can skip this step by pressing Enter
+  * You can optionally choose to delete the branch after merging
 
 ## Configuration
 If you use cli method, you can create a `.lokalise.json` file in the root of your project and add the following configuration options.
-
-If you want use it as node.js script package, you can pass the configuration object as an argument to the `fetchLocales` function.
 
 ### Configuration options
 
@@ -47,3 +39,6 @@ If you want use it as node.js script package, you can pass the configuration obj
 | processesOptions.files | options for files process                         | string | - |
 
 Possible options for [`processesOptions.keys`](https://developers.lokalise.com/reference/list-all-keys) and [`processesOptions.files`](https://developers.lokalise.com/reference/download-files) can be found in the Lokalise API documentation.
+
+## Feature plans
+- [ ] Node.js use case for to enable expansion and customization of functionality
